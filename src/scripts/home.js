@@ -69,6 +69,6 @@ export function homePage() {
 
   
   const footer = document.createElement("footer");
-  footer.textContent = '© 2025 Кафе "Hive-Coffee"';
+  footer.textContent = '© 2025 Coffee "Hive-Coffee"';
   container.appendChild(footer);
 }

@@ -113,7 +113,6 @@ input[type='file'] {
     max-width: 100%;
 }
 
-
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -142,8 +141,8 @@ input[type='file'] {
     min-width: 100%;
     background-image: url(../img/mediamodifier_image\(1\).png);
     background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: left;
-        background-size: 1700px;
-        background-position-x: -650px;
+    background-attachment: f;
+    background-position: left;
+    background-size: 1700px;
+    background-position-x: -690px;        
 }

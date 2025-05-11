@@ -31,10 +31,10 @@ function createHeader() {
   nav.className = 'main-nav';
 
   const buttons = [
-    { text: "Home", id: "home", active: true },
-    { text: "Menu", id: "menu" },
-    { text: "Your basket", id: "basket" },
-    { text: "About", id: "about" }
+    { text: "Главная страница", id: "home", active: true },
+    { text: "Меню", id: "menu" },
+    { text: "Корзина", id: "basket" },
+    { text: "О нашей кофейне", id: "about" }
   ];
 
   buttons.forEach((btn) => {
