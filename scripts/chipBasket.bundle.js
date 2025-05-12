@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{constructor(t,e){this.name=t,this.price=e,this.quantity=1}increaseQuantity(){this.quantity++}decreaseQuantity(){this.quantity--}getTotalPrice(){const t=parseFloat(this.price.replace("₽",""));return this.quantity*t}}!function(){const e=localStorage.getItem("basket");if(e)JSON.parse(e).map((e=>Object.assign(new t(e.name,e.price),e)))}()})();
