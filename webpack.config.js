@@ -9,12 +9,14 @@ module.exports = {
     menu: './src/scripts/menu.js',
     home: './src/scripts/home.js',
     chipBasket: './src/scripts/chipBasket.js',
-    aboutUs: './src/scripts/aboutUs.js'
+    aboutUs: './src/scripts/aboutUs.js',
+    img: './src/img/mediamodifier_image(1).png'
   },
   output: {
     filename: 'scripts/[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: restoranProject,
   },
   module: {
     rules: [
